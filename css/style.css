@@ -41,7 +41,7 @@ nav {
 nav .logo .logo-link {
   text-decoration: none;
   color: var(--text-color);
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 nav .logo .logo-link h1 {
@@ -76,7 +76,7 @@ nav .nav-list li .nav-link {
   text-decoration: none;
   color: var(--text-color);
   position: relative;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 nav .nav-list li .nav-link i,
@@ -488,7 +488,7 @@ nav .close-bar {
   background-color: var(--bg-main-color);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 1px #333;
   z-index: 100;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -594,6 +594,7 @@ nav .close-bar {
   color: var(--main-color);
   font-family: var(--font-text);
   font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .info-content {
@@ -640,6 +641,7 @@ nav .close-bar {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--text-color);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .info-icon .info-link a i {
@@ -671,6 +673,7 @@ nav .close-bar {
   width: 45px;
   height: 45px;
   box-shadow: 3px 3px 4px rgba(51, 51, 51, 0.8);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .info-media .media-icon .media-link:hover {
