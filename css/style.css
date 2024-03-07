@@ -479,7 +479,7 @@ nav .close-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 115px 0;
+  padding: 115px 0 110px;
 }
 
 .contact .contact-container .form {
@@ -897,6 +897,7 @@ footer .footer-content p a {
 
   .contact .contact-container {
     padding-top: 140px;
+    padding-bottom: 115px;
   }
 }
 
@@ -1035,6 +1036,7 @@ footer .footer-content p a {
 
   .contact .contact-container {
     padding-top: 130px;
+    padding-bottom: 90px;
   }
 }
 
@@ -1233,6 +1235,7 @@ footer .footer-content p a {
 
   .contact .contact-container {
     padding-top: 114px;
+    padding-bottom: 70px;
   }
 }
 
@@ -1461,6 +1464,7 @@ footer .footer-content p a {
 
   .contact .contact-container {
     padding-top: 104px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1650,6 +1654,7 @@ footer .footer-content p a {
 
   .contact .contact-container {
     padding-top: 100px;
+    padding-bottom: 55px;
   }
 
   .info-text h2 {
