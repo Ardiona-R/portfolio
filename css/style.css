@@ -1163,16 +1163,64 @@ footer .footer-content p a {
   }
 
   .info-content {
-    padding: 25px;
+    padding: 15px 15px 25px;
   }
 
   .form .contact-form .contact-content {
-    padding: 25px;
+    padding: 15px 15px 25px;
+  }
+
+  .btn-contact {
+    font-size: 17px;
+    padding: 5px 10px;
+  }
+
+  .info-text h2 {
+    font-size: 27px;
+  }
+
+  .info-text p {
+    font-size: 17.5px;
+  }
+
+  .info-media .media-text p {
+    font-size: 17px;
+  }
+
+  .info-media .media-icon .media-link {
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .input-group .input {
+    font-size: 16px;
+  }
+
+  .input-group .message {
+    font-size: 16px;
+  }
+
+  .input-group .text-area {
+    font-size: 16px;
+  }
+
+  .contact-content h2 {
+    font-size: 27px;
+  }
+
+  .input-group .label {
+    font-size: 16px;
+  }
+
+  .info-icon .info-link a,
+  .info-icon .info-link a span {
+    font-size: 16px;
   }
 
   .contact .contact-container .form {
     grid-template-columns: 1fr;
-    max-width: 400px;
+    max-width: 380px;
   }
 
   footer {
@@ -1343,16 +1391,64 @@ footer .footer-content p a {
   }
 
   .info-content {
-    padding: 20px;
+    padding: 15px 15px 25px;
   }
 
   .form .contact-form .contact-content {
-    padding: 18px;
+    padding: 15px 15px 25px;
   }
 
   .contact .contact-container .form {
     grid-template-columns: repeat(1, 1fr);
-    max-width: 350px;
+    max-width: 338px;
+  }
+
+  .btn-contact {
+    font-size: 17px;
+    padding: 5px 10px;
+  }
+
+  .info-text h2 {
+    font-size: 27px;
+  }
+
+  .info-text p {
+    font-size: 17.5px;
+  }
+
+  .info-media .media-text p {
+    font-size: 17px;
+  }
+
+  .info-media .media-icon .media-link {
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .input-group .input {
+    font-size: 16px;
+  }
+
+  .input-group .message {
+    font-size: 16px;
+  }
+
+  .input-group .text-area {
+    font-size: 16px;
+  }
+
+  .contact-content h2 {
+    font-size: 27px;
+  }
+
+  .input-group .label {
+    font-size: 16px;
+  }
+
+  .info-icon .info-link a,
+  .info-icon .info-link a span {
+    font-size: 16px;
   }
 
   footer {
@@ -1527,32 +1623,16 @@ footer .footer-content p a {
   }
 
   .info-content {
-    padding: 15px;
+    padding: 10px 10px 25px;
   }
 
   .form .contact-form .contact-content {
-    padding: 10px;
-  }
-
-  .info-text h2 {
-    font-size: 25px;
-  }
-
-  .contact-content h2 {
-    font-size: 30px;
-  }
-
-  .info-text p {
-    font-size: 17.5px;
+    padding: 10px 10px 20px;
   }
 
   .contact .contact-container .form {
     grid-template-columns: 1fr;
-    max-width: 300px;
-  }
-
-  .btn-contact {
-    padding: 5px 10px;
+    max-width: 290px;
   }
 
   footer {
@@ -1563,7 +1643,55 @@ footer .footer-content p a {
     font-size: 15px;
   }
 
+  .btn-contact {
+    font-size: 16px;
+    padding: 3px 7px;
+  }
+
   .contact .contact-container {
     padding-top: 100px;
+  }
+
+  .info-text h2 {
+    font-size: 27px;
+  }
+
+  .info-text p {
+    font-size: 17.5px;
+  }
+
+  .info-media .media-text p {
+    font-size: 17px;
+  }
+
+  .info-media .media-icon .media-link {
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .input-group .input {
+    font-size: 16px;
+  }
+
+  .input-group .message {
+    font-size: 16px;
+  }
+
+  .input-group .text-area {
+    font-size: 16px;
+  }
+
+  .contact-content h2 {
+    font-size: 27px;
+  }
+
+  .input-group .label {
+    font-size: 16px;
+  }
+
+  .info-icon .info-link a,
+  .info-icon .info-link a span {
+    font-size: 16px;
   }
 }
