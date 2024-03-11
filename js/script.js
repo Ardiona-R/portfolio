@@ -31,11 +31,13 @@ ScrollReveal().reveal(".about-title", {
 ScrollReveal().reveal(".about-description", {
   delay: 600,
   origin: "top",
+  distance: "17px",
 });
 ScrollReveal().reveal(".socials .socials-link", {
   delay: 700,
   origin: "top",
-  interval: 100,
+  interval: 300,
+  distance: "18px",
 });
 ScrollReveal().reveal(".about-img", {
   delay: 300,
