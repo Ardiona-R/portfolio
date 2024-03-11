@@ -112,7 +112,7 @@ ScrollReveal().reveal(".form .contact-content .input-group", {
   delay: 300,
   origin: "top",
   distance: "16px",
-  interval: 450,
+  interval: 250,
 });
 ScrollReveal().reveal(".form .contact-content .btn-contact", {
   delay: 400,
