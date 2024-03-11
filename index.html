@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="website icon" type="png" href="assets/images/website-icon.png" />
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Boxicons CSS -->
     <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet" />
 
@@ -14,42 +16,47 @@
     <!-- Lightbox -->
     <link rel="stylesheet" href="assets/lightbox/css/lightbox.min.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav>
+    <nav class="animate__animated animate__slideInDown">
       <div class="logo">
         <a class="logo-link" href="index.html">
           <h1><span>Port</span>folio.</h1>
         </a>
       </div>
       <ul class="nav-list">
-        <li>
+        <li class="animate__animated animate__fadeInDown">
           <a class="nav-link" href="#home">
             <i class="bx bxs-home"></i>
             <span class="nav-name">Home</span>
           </a>
         </li>
-        <li>
+        <li class="animate__animated animate__fadeInDown">
           <a class="nav-link" href="#about">
             <i class="bx bxs-id-card"></i>
             <span class="nav-name">About</span>
           </a>
         </li>
-        <li>
+        <li class="animate__animated animate__fadeInDown">
           <a class="nav-link" href="#skills"
             ><i class="bx bxs-bar-chart-alt-2"></i>
             <span class="nav-name">Skills</span>
           </a>
         </li>
-        <li>
+        <li class="animate__animated animate__fadeInDown">
           <a class="nav-link" href="#projects">
             <i class="bx bxs-book-content"></i>
             <span class="nav-name">Projects</span>
           </a>
         </li>
-        <li>
+        <li class="animate__animated animate__fadeInDown">
           <a class="nav-link" href="#contact">
             <i class="bx bxs-message-rounded-dots"></i>
             <span class="nav-name">Contact</span>
@@ -66,10 +73,10 @@
     <section id="home" class="home">
       <div class="home-container">
         <div class="home-content">
-          <img src="assets/images/profile.png" alt="My Photo" />
+          <img class="img" src="assets/images/profile.png" alt="My Photo" />
           <div class="home-text">
             <p class="text-satu">Student | Newbie Web Developer</p>
-            <h2><span>Gamingxyz</span>1223</h2>
+            <h2 class="home-title"><span>Gamingxyz</span>1223</h2>
             <p class="text-dua">Hello, Welcome To My Personal Website</p>
           </div>
         </div>
@@ -81,10 +88,10 @@
     <section id="about" class="about">
       <div class="about-container">
         <div class="about-content">
-          <img src="assets/images/about.png" alt="My Photo" />
+          <img class="about-img" src="assets/images/about.png" alt="My Photo" />
           <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <p>
+            <h2 class="about-title">About <span>Me</span></h2>
+            <p class="about-description">
               Hi my name is Gamingxyz1223, I live in Indonesia precisely in the
               sidoarjo area. I am 16 years old who wants to move on to 17 years.
               I am a student who attends SMK YPM 1 Taman, there I majored in TKJ

@@ -1,3 +1,128 @@
+// Animation
+ScrollReveal({
+  reset: true,
+  distance: "60px",
+  duration: 1000,
+  delay: 200,
+  easing: "ease-in-out",
+});
+
+ScrollReveal().reveal(".text-satu", {
+  delay: 300,
+  origin: "left",
+});
+ScrollReveal().reveal(".home-title", {
+  delay: 400,
+  origin: "left",
+});
+ScrollReveal().reveal(".text-dua", {
+  delay: 500,
+  origin: "left",
+});
+ScrollReveal().reveal(".img", {
+  delay: 700,
+  origin: "right",
+});
+
+ScrollReveal().reveal(".about-title", {
+  delay: 300,
+  origin: "right",
+});
+ScrollReveal().reveal(".about-description", {
+  delay: 600,
+  origin: "top",
+});
+ScrollReveal().reveal(".socials .socials-link", {
+  delay: 700,
+  origin: "top",
+  interval: 100,
+});
+ScrollReveal().reveal(".about-img", {
+  delay: 300,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".skills-title", {
+  delay: 300,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".skills-text", {
+  delay: 500,
+  origin: "bottom",
+});
+ScrollReveal().reveal(".skills-content", {
+  delay: 700,
+  origin: "left",
+  interval: 400,
+});
+
+ScrollReveal().reveal(".title", {
+  delay: 300,
+  origin: "left",
+});
+ScrollReveal().reveal(".projects-img", {
+  delay: 500,
+  origin: "right",
+  interval: 400,
+  rotate: {
+    x: 25,
+    y: 10,
+  },
+});
+
+ScrollReveal().reveal(".form", {
+  delay: 200,
+  origin: "left",
+});
+ScrollReveal().reveal(".form .info-text h2", {
+  delay: 400,
+  origin: "top",
+  distance: "15px",
+});
+ScrollReveal().reveal(".form .info-text p", {
+  delay: 600,
+  origin: "top",
+  distance: "15px",
+});
+ScrollReveal().reveal(".form .info-link", {
+  delay: 700,
+  origin: "top",
+  distance: "15px",
+  interval: 400,
+});
+ScrollReveal().reveal(".form .media-text", {
+  delay: 900,
+  origin: "left",
+  distance: "15px",
+  duration: 1200,
+});
+ScrollReveal().reveal(".form .media-icon .media-link", {
+  delay: 1000,
+  origin: "top",
+  distance: "15px",
+  interval: 500,
+});
+ScrollReveal().reveal(".form .contact-content h2", {
+  delay: 200,
+  origin: "top",
+  distance: "16px",
+});
+ScrollReveal().reveal(".form .contact-content .input-group", {
+  delay: 300,
+  origin: "top",
+  distance: "16px",
+  interval: 450,
+});
+ScrollReveal().reveal(".form .contact-content .btn-contact", {
+  delay: 400,
+  origin: "bottom",
+  distance: "16px",
+  duration: 2000,
+  interval: 800,
+});
+
+//
 let menu = document.querySelector(".menu-bar");
 let navList = document.querySelector(".nav-list");
 

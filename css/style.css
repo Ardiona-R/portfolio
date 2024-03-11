@@ -23,6 +23,34 @@ body {
   --bg-main-color: #f0f1ff;
 }
 
+/* Animated CSS */
+.animate__animated.animate__fadeInDown:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.animate__animated.animate__fadeInDown:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.animate__animated.animate__fadeInDown:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.animate__animated.animate__fadeInDown:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.animate__animated.animate__fadeInDown:nth-child(5) {
+  animation-delay: 0.9s;
+}
+
+/* .text-satu.animate__animated.animate__fadeInLeft {
+  animation-delay: 0.5s;
+}
+.title.animate__animated.animate__fadeInLeft {
+  animation-delay: 0.6s;
+  animation-duration: 1s;
+}
+.text-dua.animate__animated.animate__fadeInLeft {
+  animation-delay: 0.7s;
+} */
+
 /* Navbar CSS Start */
 nav {
   background: var(--bg-color);
@@ -118,6 +146,7 @@ nav .close-bar {
   width: 100%;
   min-height: 100vh;
   padding-top: 120px;
+  overflow: hidden;
 }
 
 .home .home-container {
@@ -180,7 +209,8 @@ nav .close-bar {
 .about {
   width: 100%;
   min-height: 90vh;
-  padding-top: 115px;
+  padding-top: 150px;
+  overflow: hidden;
 }
 
 .about .about-container {
@@ -274,6 +304,7 @@ nav .close-bar {
   width: 100%;
   min-height: 90vh;
   padding-top: 115px;
+  overflow: hidden;
 }
 
 .skills .skills-title {
@@ -379,6 +410,7 @@ nav .close-bar {
   width: 100%;
   min-height: 90vh;
   padding-top: 115px;
+  overflow: hidden;
 }
 
 .projects .title {
@@ -689,6 +721,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-family: var(--font-text);
+  overflow: hidden;
 }
 
 footer .footer-content {
@@ -902,6 +935,18 @@ footer .footer-content p a {
     padding-top: 140px;
     padding-bottom: 115px;
   }
+
+  .contact .contact-container .form {
+    max-width: 900px;
+  }
+
+  .info-content {
+    padding: 25px;
+  }
+
+  .form .contact-form .contact-content {
+    padding: 25px;
+  }
 }
 
 /* Tablet */
@@ -1040,6 +1085,12 @@ footer .footer-content p a {
   .contact .contact-container {
     padding-top: 130px;
     padding-bottom: 90px;
+  }
+
+  .form .contact-form::before {
+    top: -13px;
+    left: initial;
+    right: 40px;
   }
 }
 
@@ -1239,6 +1290,12 @@ footer .footer-content p a {
   .contact .contact-container {
     padding-top: 114px;
     padding-bottom: 70px;
+  }
+
+  .form .contact-form::before {
+    top: -13px;
+    left: initial;
+    right: 28px;
   }
 }
 
@@ -1468,6 +1525,12 @@ footer .footer-content p a {
   .contact .contact-container {
     padding-top: 104px;
     padding-bottom: 60px;
+  }
+
+  .form .contact-form::before {
+    top: -13px;
+    left: initial;
+    right: 25px;
   }
 }
 
@@ -1701,5 +1764,11 @@ footer .footer-content p a {
   .info-icon .info-link a,
   .info-icon .info-link a span {
     font-size: 16px;
+  }
+
+  .form .contact-form::before {
+    top: -13px;
+    left: initial;
+    right: 20px;
   }
 }
