@@ -1532,6 +1532,14 @@ footer .footer-content p a {
     left: initial;
     right: 25px;
   }
+
+  .info-text {
+    margin-bottom: 30px;
+  }
+
+  .info-icon {
+    margin-bottom: 30px;
+  }
 }
 
 /* Small mobile */
@@ -1770,5 +1778,13 @@ footer .footer-content p a {
     top: -13px;
     left: initial;
     right: 20px;
+  }
+
+  .info-text {
+    margin-bottom: 30px;
+  }
+
+  .info-icon {
+    margin-bottom: 30px;
   }
 }
