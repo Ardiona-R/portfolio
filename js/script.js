@@ -1,9 +1,9 @@
 // Animation
 ScrollReveal({
   reset: true,
-  distance: "60px",
-  duration: 700,
-  delay: 200,
+  distance: "50px",
+  duration: 450,
+  delay: 100,
   easing: "ease-in-out",
 });
 
